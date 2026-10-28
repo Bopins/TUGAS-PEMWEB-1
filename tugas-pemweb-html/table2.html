@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel 2 - Jadwal Perkuliahan</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+        margin: 0;
+      }
+
+      nav {
+        background: #17365d;
+        padding: 15px;
+        text-align: center;
+      }
+
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 8px;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        color: yellow;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 30px auto;
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+      }
+
+      .table-wrapper {
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        min-width: 750px;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        border: 1px solid #777;
+        padding: 12px;
+        text-align: center;
+      }
+
+      th {
+        background: #17365d;
+        color: white;
+      }
+
+      tbody tr:nth-child(even) {
+        background: #eef3fa;
+      }
+
+      .info {
+        margin-top: 20px;
+        padding: 15px;
+        background: #e6f0ff;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Beranda</a>
+      <a href="profile.html">Profil</a>
+      <a href="about-me.html">Tentang Saya</a>
+      <a href="educations.html">Pendidikan</a>
+      <a href="course-schedule.html">Jadwal</a>
+      <a href="hobbies.html">Hobi</a>
+      <a href="form.html">Form</a>
+      <a href="table1.html">Tabel 1</a>
+      <a href="table2.html">Tabel 2</a>
+    </nav>
+
+    <div class="container">
+      <h1>UNIVERSITAS MANDIRI</h1>
+      <h2>JADWAL PERKULIAHAN SEMESTER GANJIL</h2>
+
+      <p style="text-align: center">
+        Nama: APRILIANSYAH<br />
+        Program Studi: Sistem Informasi<br />
+        Tahun Akademik: 2026/2027
+      </p>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Hari</th>
+              <th>Jam</th>
+              <th>Mata Kuliah</th>
+              <th>SKS</th>
+              <th>Kelas</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td rowspan="2">Kamis</td>
+              <td>16.00 - 18.30</td>
+              <td>Pemrograman Web 1</td>
+              <td>3</td>
+              <td>SI-1B</td>
+            </tr>
+            <tr>
+              <td>18.30 - 21.00</td>
+              <td>Rekayasa Perangkat Lunak</td>
+              <td>3</td>
+              <td>SI-5B</td>
+            </tr>
+
+            <tr>
+              <td rowspan="2">Jumat</td>
+              <td>16.00 - 18.30</td>
+              <td>Sistem Operasi</td>
+              <td>3</td>
+              <td>SI-3B</td>
+            </tr>
+            <tr>
+              <td>18.30 - 20.10</td>
+              <td>Pemrograman Web 2</td>
+              <td>2</td>
+              <td>SI-5B</td>
+            </tr>
+
+            <tr>
+              <td rowspan="4">Sabtu</td>
+              <td>08.00 - 10.30</td>
+              <td>Arsitektur SI / TI Perusahaan</td>
+              <td>3</td>
+              <td>SI-5B</td>
+            </tr>
+            <tr>
+              <td>13.00 - 14.40</td>
+              <td>Sistem Informasi Pengolahan Citra</td>
+              <td>2</td>
+              <td>SI-5B</td>
+            </tr>
+            <tr>
+              <td>14.40 - 15.20</td>
+              <td>Audit Sistem Informasi</td>
+              <td>2</td>
+              <td>SI-5B</td>
+            </tr>
+            <tr>
+              <td>15.00 - 17.30</td>
+              <td>Analisis Proses Bisnis</td>
+              <td>3</td>
+              <td>SI-3B</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr style="background: #dce8f6; font-weight: bold">
+              <td colspan="3">Total SKS</td>
+              <td>21</td>
+              <td>8 MK</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+
+      <div class="info">
+        <b>Informasi Jadwal:</b>
+        <p>
+          Hari Kuliah: Kamis, Jumat, Sabtu<br />
+          Jumlah Mata Kuliah: 8<br />
+          Total SKS: 21
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
