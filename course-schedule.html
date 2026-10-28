@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Kuliah - Apriliansyah</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f5fa;
+      color: #243247;
+    }
+
+    nav {
+      background: #17365d;
+      padding: 16px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 8px;
+      display: inline-block;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #ffd166;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 35px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px #00000012;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    h1 {
+      color: #17365d;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .identitas {
+      margin-bottom: 25px;
+      line-height: 1.8;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1000px;
+      font-size: 13px;
+    }
+
+    th, td {
+      border: 1px solid #b8c2ce;
+      padding: 12px 9px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    th {
+      background: #17365d;
+      color: white;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f0f5fb;
+    }
+
+    tbody tr:hover {
+      background: #e1edff;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    tfoot {
+      background: #dce8f6;
+      font-weight: bold;
+    }
+
+    .info {
+      margin-top: 25px;
+      padding: 15px;
+      background: #eaf3ff;
+      border-left: 4px solid #17365d;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #667085;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigasi antarhalaman -->
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="profile.html">Profil</a>
+    <a href="about-me.html">Tentang Saya</a>
+    <a href="educations.html">Pendidikan</a>
+    <a href="course-schedule.html">Jadwal Kuliah</a>
+    <a href="hobbies.html">Hobi</a>
+    <a href="form.html">Formulir</a>
+    <a href="table1.html">Tabel 1</a>
+    <a href="table2.html">Tabel 2</a>
+  </nav>
+
+  <div class="container">
+
+    <h1>UNIVERSITAS MANDIRI</h1>
+    <h2>JADWAL PERKULIAHAN</h2>
+
+    <p class="subtitle">
+      Program Studi Sistem Informasi<br>
+      Tahun Akademik 2026/2027 - Semester Ganjil
+    </p>
+
+    <div class="identitas">
+      <strong>Nama:</strong> APRILIANSYAH<br>
+      <strong>NPM:</strong> 2511700043<br>
+      <strong>Program Studi:</strong> Sistem Informasi<br>
+      <strong>Semester:</strong> Ganjil<br>
+      <strong>Total SKS:</strong> 21 SKS
+    </div>
+
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Kode</th>
+            <th>Mata Kuliah</th>
+            <th>SKS</th>
+            <th>Kelas</th>
+            <th>Dosen</th>
+            <th>Jadwal</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="center">1</td>
+            <td>KK21251953</td>
+            <td>Pemrograman Web 1</td>
+            <td class="center">3</td>
+            <td>SI-1B</td>
+            <td>Ardi Permana, S.Kom.</td>
+            <td>Kamis<br>16.00 - 18.30</td>
+          </tr>
+
+          <tr>
+            <td class="center">2</td>
+            <td>KK21251344</td>
+            <td>Rekayasa Perangkat Lunak</td>
+            <td class="center">3</td>
+            <td>SI-5B</td>
+            <td>Haris Nizhomul Haq, S.Kom., M.Sc.</td>
+            <td>Kamis<br>18.30 - 21.00</td>
+          </tr>
+
+          <tr>
+            <td class="center">3</td>
+            <td>KK21250933</td>
+            <td>Sistem Operasi</td>
+            <td class="center">3</td>
+            <td>SI-3B</td>
+            <td>Aditya Permadi, S.Si., M.T.</td>
+            <td>Jumat<br>16.00 - 18.30</td>
+          </tr>
+
+          <tr>
+            <td class="center">4</td>
+            <td>MP21250552</td>
+            <td>Pemrograman Web 2</td>
+            <td class="center">2</td>
+            <td>SI-5B</td>
+            <td>Asep Saepudin, S.Tr.T., M.Kom.</td>
+            <td>Jumat<br>18.30 - 20.10</td>
+          </tr>
+
+          <tr>
+            <td class="center">5</td>
+            <td>KK21252153</td>
+            <td>Arsitektur SI / TI Perusahaan</td>
+            <td class="center">3</td>
+            <td>SI-5B</td>
+            <td>Cucu, M.Kom.</td>
+            <td>Sabtu<br>08.00 - 10.30</td>
+          </tr>
+
+          <tr>
+            <td class="center">6</td>
+            <td>KK21254352</td>
+            <td>Sistem Informasi Pengolahan Citra</td>
+            <td class="center">2</td>
+            <td>SI-5B</td>
+            <td>Jupriyanto, M.Kom.</td>
+            <td>Sabtu<br>13.00 - 14.40</td>
+          </tr>
+
+          <tr>
+            <td class="center">7</td>
+            <td>KK21252252</td>
+            <td>Audit Sistem Informasi</td>
+            <td class="center">2</td>
+            <td>SI-5B</td>
+            <td>Dicky Iskandar Sobari, M.Kom.</td>
+            <td>Sabtu<br>14.40 - 15.20</td>
+          </tr>
+
+          <tr>
+            <td class="center">8</td>
+            <td>KK21251133</td>
+            <td>Analisis Proses Bisnis</td>
+            <td class="center">3</td>
+            <td>SI-3B</td>
+            <td>Haris Nizhomul Haq, S.Kom., M.Sc.</td>
+            <td>Sabtu<br>15.00 - 17.30</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="3" class="center">TOTAL</td>
+            <td class="center">21</td>
+            <td colspan="3">8 Mata Kuliah</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div class="info">
+      <strong>Informasi Perkuliahan</strong>
+      <p>
+        Jadwal perkuliahan dilaksanakan pada
+        hari Kamis, Jumat, dan Sabtu.
+      </p>
+      <p>
+        Jumlah mata kuliah: 8<br>
+        Total beban studi: 21 SKS
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Apriliansyah |
+    Universitas Mandiri - Sistem Informasi
+  </footer>
+
+</body>
+</html>
